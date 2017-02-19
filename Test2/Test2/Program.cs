@@ -11,6 +11,9 @@ namespace Test2
         static void Main(string[] args)
         {
             Console.Write("Hi! Welcome here");
+            SecondClass sc = new SecondClass();
+            sc.n = 10;
+            Console.Write(sc.n);
         }
     }
 }
